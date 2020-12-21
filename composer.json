@@ -3,7 +3,9 @@
     "description": "HTTP Foundation",
     "type": "library",
     "require": {
-        "php": "^8.0"
+        "php": "^8.0",
+        "geriano/container": "*",
+        "geriano/helpers": "*"
     },
     "license": "MIT",
     "authors": [
@@ -14,8 +16,8 @@
     ],
     "minimum-stability": "dev",
     "autoload": {
-	"psr-4": {
-	    "Geriano\\Http\\": "src"
-	}
+        "psr-4": {
+            "Geriano\\Http\\": "src"
+        }
     }
 }
