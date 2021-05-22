@@ -2,7 +2,9 @@
     "name": "geriano/http",
     "description": "Dependency injections",
     "require": {
-        "php": "^8"
+        "php": "^8",
+        "geriano/containers": "dev-main",
+        "geriano/helpers": "dev-main",
     },
     "license": "MIT",
     "authors": [
