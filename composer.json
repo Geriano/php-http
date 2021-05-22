@@ -4,7 +4,7 @@
     "require": {
         "php": "^8",
         "geriano/containers": "dev-main",
-        "geriano/helpers": "dev-main",
+        "geriano/helpers": "dev-main"
     },
     "license": "MIT",
     "authors": [
