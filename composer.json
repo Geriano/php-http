@@ -1,11 +1,8 @@
 {
     "name": "geriano/http",
-    "description": "HTTP Foundation",
-    "type": "library",
+    "description": "Dependency injections",
     "require": {
-        "php": "^8.0",
-        "geriano/container": "*",
-        "geriano/helpers": "*"
+        "php": "^8"
     },
     "license": "MIT",
     "authors": [
@@ -14,10 +11,14 @@
             "email": "gerznewbie@gmail.com"
         }
     ],
-    "minimum-stability": "dev",
     "autoload": {
         "psr-4": {
             "Geriano\\Http\\": "src"
         }
-    }
+    },
+    "composer-runtime-api": "^1.0|^2.0",
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev"
 }
