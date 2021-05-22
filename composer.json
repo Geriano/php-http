@@ -3,7 +3,7 @@
     "description": "Dependency injections",
     "require": {
         "php": "^8",
-        "geriano/containers": "dev-main",
+        "geriano/container": "dev-main",
         "geriano/helpers": "dev-main"
     },
     "license": "MIT",
